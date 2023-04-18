@@ -1,0 +1,140 @@
+*{box-sizing: border-box;}
+
+.main-ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.main-li{
+  float: left;
+  width: 120px;
+  border: 1px solid gray;
+}
+.main-li a{
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 15px 0px;
+  height: 50px;
+  padding-top: 15px;
+  background: black;
+  color: white;
+  transition: 2s;
+}
+.main-li a:hover{
+  
+  background: white;
+  color: black;
+}
+.second-li{
+  display: none;
+}
+.main-li:hover .second-li{
+  display: block;
+}
+.box-one{
+  height: 200px;
+  width: 300px;
+  background: red;
+  margin: 10px;
+  box-shadow: 10px 10px gray;
+  float: left;
+}
+.box-two{
+  height: 200px;
+  width: 300px;
+  background: red;
+  margin: 20px;
+  box-shadow: 10px 10px 20px gray;
+  float: left;
+}
+.box-three{
+  height: 200px;
+  width: 300px;
+  background: red;
+  margin: 20px;
+  box-shadow: -10px 10px gray;
+  float: left;
+}
+.box-four{
+  height: 200px;
+  width: 300px;
+  background: red;
+  margin: 20px;
+  box-shadow: -10px -10px gray;
+  float: left;
+}
+.box-five{
+  height: 200px;
+  width: 300px;
+  background: red;
+  margin: 20px;
+  box-shadow: 10px -10px gray;
+  float: left;
+}
+.box-six{
+  height: 200px;
+  width: 300px;
+  background: red;
+  margin: 20px;
+  box-shadow: 0px 0px 20px 3px gray;
+  float: left;
+}
+
+.box-seven{
+  height: 200px;
+  width: 300px;
+  background: red;
+  margin: 5px;
+  box-shadow: 0px 0px 5px 50px gray;
+  float: left;
+}
+.box-eight{
+  width: 300px;
+  margin: 50px 10px 10px;
+  float: left;
+  border-left: 10px solid green;
+  padding: 5px;
+}
+.box-eight:hover{
+  box-shadow: 0px 0px 20px 3px gold;
+}
+.box-eight p{
+  text-align: justify;
+}
+.box-eight h2{
+  text-align: center;
+  text-shadow: 0px 0px 20px goldenrod;
+}
+.img-one{
+  float: left;
+  margin-right: 10px;
+}
+.btn-one{
+  text-decoration: none;
+  height: 40px;
+  background: green;
+  color: white;
+  padding: 15px;
+  float: right;
+}
+.box-nine{
+  height: 250px;
+  width: 350px;
+  border: 10px solid black;
+  margin-top: 50px;
+  float: left;
+}
+.box-nine img{
+  height: 100%;
+  width: 100%;
+}
+.box-ten{
+  height: 250px;
+  width: 350px;
+  border: 10px solid black;
+  margin-top: 100px;
+  background-image: url("../images/ফুল.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
